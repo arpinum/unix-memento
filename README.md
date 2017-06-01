@@ -1,5 +1,5 @@
-# Linux Memento
-Collection of linux quick tips
+# Unix Memento
+Collection of Unix quick tips
 
 ## Run command, display result and save output to a file
 
