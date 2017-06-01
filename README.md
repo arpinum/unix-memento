@@ -1,4 +1,4 @@
-# linux-memento
+# Linux Memento
 Collection of linux quick tips
 
 ## Run command, display result and save output to a file
