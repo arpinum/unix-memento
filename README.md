@@ -14,3 +14,13 @@ rename 's/this/that/g' -p -g "*.js"
 ```
 
 Rename all expanded (`-g`) js files, replacing `this` by `that` and creating folder (`-p`) if needed.
+
+
+## Create bootable usb key with linux from OSX
+
+```
+hdiutil convert ubuntu.iso -format UDRW -o ubuntu
+diskutil list # note your device number
+diskutil unmountDisk /dev/diskX # replace X by the number
+sudo dd if=ubuntu.dmg of=/dev/rdiskX bs=1m # replace X by the number
+```
