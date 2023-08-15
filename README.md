@@ -22,7 +22,7 @@ Rename all expanded (`-g`) js files, replacing `this` by `that` and creating fol
 hdiutil convert ubuntu.iso -format UDRW -o ubuntu
 diskutil list # note your device number
 diskutil unmountDisk /dev/diskX # replace X by the number
-sudo dd if=ubuntu.dmg of=/dev/rdiskX bs=1m # replace X by the number
+sudo dd if=ubuntu.dmg of=/dev/rdiskX bs=1M # replace X by the number
 ```
 
 ## Advanced file search
